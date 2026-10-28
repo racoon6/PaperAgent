@@ -1,0 +1,21 @@
+# Python 缓存
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# 虚拟环境
+.venv/
+venv/
+
+# 私密配置
+.env
+.env.*
+!.env.example
+
+# 本地数据及索引
+data/
+storage/
+
+# 编辑器文件
+.idea/
+.vscode/
